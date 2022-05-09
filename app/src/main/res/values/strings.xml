@@ -1,0 +1,8 @@
+<resources>
+<!--definuje nazwy obiektów-->
+    <string name="app_name">GuitarTuner</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_play">Play</string>
+
+</resources>
