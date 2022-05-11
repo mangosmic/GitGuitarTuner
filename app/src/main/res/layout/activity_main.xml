@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.061" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/StartButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_start"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.179" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/StopButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -42,12 +42,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.089"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/StartButton"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.181" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/PlayButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -55,7 +55,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/StopButton"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.179" />
 
